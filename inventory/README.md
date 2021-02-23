@@ -1,24 +1,37 @@
-# README
+# Inventory Micorservice
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+## Ruby version
+2.7.2
 
-* System dependencies
+## System dependencies
 
-* Configuration
+## Configuration
 
-* Database creation
+## PostgreSQL
+```
+docker run --rm --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -p 5432:5432 -d postgres
+```
 
-* Database initialization
+## Database creation
+```
+bundle exec rake db:create
+```
 
-* How to run the test suite
+## Database initialization
+```
+bundle exec rake db:migrate
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+## How to run the test suite
+```
+bundle exec rspec
+```
 
-* Deployment instructions
+## Services (job queues, cache servers, search engines, etc.)
 
-* ...
+## Deployment instructions
