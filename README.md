@@ -8,3 +8,4 @@ Sandbox project where one can sell auto parts.
 ## Resoueces Used:
 - https://dev.to/vshl/dockerize-a-new-rails-application-17m0
 - https://blog.kiprosh.com/building-rails-5-application-with-angular-5/
+- https://www.digitalocean.com/community/tutorials/build-a-restful-json-api-with-rails-5-part-one
