@@ -69,6 +69,7 @@ GEM
       database_cleaner-core (~> 2.0.0)
     database_cleaner-core (2.0.1)
     diff-lcs (1.4.4)
+    dotenv (2.7.6)
     erubi (1.10.0)
     faker (2.16.0)
       i18n (>= 1.6, < 2)
@@ -178,6 +179,7 @@ DEPENDENCIES
   bootsnap (>= 1.4.2)
   byebug
   database_cleaner
+  dotenv (~> 2.7)
   faker
   listen (~> 3.2)
   pg (~> 1.2.3)

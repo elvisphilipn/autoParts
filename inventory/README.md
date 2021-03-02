@@ -14,7 +14,7 @@ Things you may want to cover:
 
 ## PostgreSQL
 ```
-docker run --rm --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -p 5432:5432 -d postgres
+docker run --rm --name some-postgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres
 ```
 
 ## Database creation
